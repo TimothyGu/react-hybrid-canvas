@@ -1,0 +1,36 @@
+{
+  "name": "react-hybrid-canvas",
+  "version": "1.0.0",
+  "description": "Component for SVG-backed canvas",
+  "main": "lib/index.js",
+  "jsnext:main": "lib/index.es.js",
+  "files": [
+    "lib/index.js",
+    "lib/index.es.js"
+  ],
+  "scripts": {
+    "prepare": "rollup -c",
+    "prepublish": "npm run prepare"
+  },
+  "repository": "https://github.com/TimothyGu/react-hybrid-canvas",
+  "author": "Timothy Gu <timothygu99@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-runtime": "^6.18.0",
+    "is-in-browser": "^1.0.2"
+  },
+  "peerDependencies": {
+    "react": ">=0.14"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2017": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0",
+    "rollup": "^0.36.3",
+    "rollup-plugin-babel": "^2.6.1"
+  }
+}
